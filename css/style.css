@@ -283,11 +283,18 @@ footer {
 /******* PAGE SPECIFIC BACKGROUNDS *******/
 
 .blogbg {
-	background-image: url(../images/blogbg.png);
+	
 	height: 100%;
 	background-size: 100%;
 	background-position: center;
 	padding-top: 20%;
+	background-image: -o-linear-gradient(right, rgba(109,110,182,0.8) 0%, rgba(0,106,255,0.8) 0%, rgba(232,15,62,0.8) 100%);
+	background-image: -webkit-gradient(linear,left top,right top,color-stop(0, rgba(109,110,182,0.8)),color-stop(0, rgba(0,106,255,0.8)),color-stop(1, rgba(232,15,62,0.8)));
+	background-image: -o-linear-gradient(right, rgba(109,110,182,0.8) 0%, rgba(0,106,255,0.8) 0%, rgba(232,15,62,0.8) 100%);
+	background-image: -moz-linear-gradient(right, rgba(109,110,182,0.8) 0%, rgba(0,106,255,0.8) 0%, rgba(232,15,62,0.8) 100%);
+	background-image: -webkit-linear-gradient(right, rgba(109,110,182,0.8) 0%, rgba(0,106,255,0.8) 0%, rgba(232,15,62,0.8) 100%);
+	background-image: -ms-linear-gradient(right, rgba(109,110,182,0.8) 0%, rgba(0,106,255,0.8) 0%, rgba(232,15,62,0.8) 100%);
+	background-image: linear-gradient(to right, rgba(109,110,182,0.8) 0%, rgba(0,106,255,0.8) 0%, rgba(232,15,62,0.8) 100%);
 	
 }
 
@@ -306,7 +313,6 @@ footer {
 	background-size: 100%;
 	background-position: center;
 	padding-top: 10%;
-
 }
 
 .contactbg {
