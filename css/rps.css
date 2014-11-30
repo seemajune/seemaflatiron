@@ -50,7 +50,7 @@ body {
   padding: 20%;
   color: #d23232;
   font-size: 2em;
-  background-image: url("rock.png");
+  background-image: url("../images/rock.png");
   background-size: 45%;
   background-repeat: no-repeat;
 }
@@ -59,7 +59,7 @@ body {
   padding: 20%;
   color: #006699;
   font-size: 2em;
-  background-image: url("paper.png");
+  background-image: url("../images/paper.png");
   background-size: 35%;
   background-repeat: no-repeat;
   margin-top: 10px;
@@ -69,7 +69,7 @@ body {
   padding: 20%;
   color: #4A96AD;
   font-size: 2em;
-  background-image: url("scissors.png");
+  background-image: url("../images/scissors.png");
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: bottom-left;
