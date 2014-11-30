@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+h1 {
+  color: #999; 
+  padding: 3% 6%;
+  font-family: Raleway;
+  text-align: right;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+}
+
+p {
+  color: #d23232; 
+}
+
+body {
+  background-color: #F5F3EE;
+  font-family: Quicksand, Helvetica;
+}
+
+#wrapper {
+  width: 80%;
+  margin:0 auto;
+  clear:both;
+}
+
+.container-left {
+  width: 40%;
+  display: inline-block;
+  float: left;
+  margin-left: 17%;
+}
+
+.container-mid {
+  width: 20%;
+  display: inline-block;
+  float: right;
+  margin-top: 15%;
+}
+
+.container-right {
+  width: 40%;
+  display: inline-block;
+  float: right;
+}
+
+.computer-rock, .rock {
+  padding: 20%;
+  color: #d23232;
+  font-size: 2em;
+  background-image: url("rock.png");
+  background-size: 45%;
+  background-repeat: no-repeat;
+}
+
+.computer-paper, .paper {
+  padding: 20%;
+  color: #006699;
+  font-size: 2em;
+  background-image: url("paper.png");
+  background-size: 35%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.computer-scissors, .scissors {
+  padding: 20%;
+  color: #4A96AD;
+  font-size: 2em;
+  background-image: url("scissors.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: bottom-left;
+  margin-top: 25px;
+  margin-left: 2px;
+}
+
+.player-pointer {
+  cursor: pointer;
+}
+
+.tie, .win, .lost {
+  padding: 15%;
+  color: #1E90FF;
+  font-size: 2em;
+}
+
+.play-again {
+  color: #888;
+  font-size: 1.2em;
+  padding: 30% 15%;
+  cursor: pointer;
+  margin-left: 33%;
+  margin-top: 30%;
+  display: inline-block;
+}
+
+
+
+
