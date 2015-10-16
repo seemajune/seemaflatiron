@@ -1,6 +1,8 @@
 $( document ).ready(function() {
-    $('th').on('click touchstart', function(e){
-      var listToShow = $('.' + $(this).attr('id'));
-      $(listToShow).toggle('hide-list');
-    });
+  $('th').css('cursor', 'pointer');
+
+  $('th').on('click touchstart', function(e){
+    var listToShow = $('.' + $(this).attr('id'));
+    $(listToShow).toggle('hide-list').addClass('shadow-z-1');
+  });
 });
