@@ -90,6 +90,10 @@
 		margin-top: 25%;
 	}
 
+	th {
+		padding-right: 5%;
+	}
+
 	.headercontainter {
 		width: 100%;
 
@@ -97,6 +101,7 @@
 	.headercontainer h1 {
 		font-size: 9px;
 	}
+
 	 #linkbar {
 
 	 }
