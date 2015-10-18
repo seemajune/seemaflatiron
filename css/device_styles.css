@@ -53,10 +53,6 @@
 
 @media only screen and (max-width: 480px) {
 
-	.headercontainer h1 {
-		font-size: 10px;
-	}
-
 	.col1_left {
     float: left;
     width: 100%;
@@ -65,16 +61,32 @@
     overflow-x: visible;
   }
 
-	#linkbar {
-	 	margin: 0;
+	table {
+		margin-top: 25%;
 	}
+
+	th {
+		padding-right: 5%;
+	}
+
+	.headercontainter {
+		width: 100%;
+
+	}
+	.headercontainer h1 {
+		font-size: 10px;
+	}
+
+	 #linkbar {
+
+	 }
 		#linkbar a {
-		font-size: 9px;
+		display: inline-block;
+		font-size: 10px;
 	}
-	
-	#social {
+		#social {
 		position: absolute;
-		top: 120px;
+		top: 250px;
 		width: auto;
 	}
 }
