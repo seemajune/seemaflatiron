@@ -15,7 +15,7 @@
 	}
 
 	.headercontainer h1 {
-		font-size: 1.2em;
+		font-size: .5em;
 		margin-right: 40%;
 	}
 
@@ -36,7 +36,7 @@
 	}
 
 	.headercontainer h1 {
-		font-size: 1.1em;
+		font-size: .5em;
 	}
 	
 	#social {
@@ -69,7 +69,7 @@
 	 	margin: 0;
 	}
 		#linkbar a {
-		font-size: 10px;
+		font-size: 9px;
 	}
 	
 	#social {
@@ -92,14 +92,14 @@
 
 	}
 	.headercontainer h1 {
-		font-size: 10px;
+		font-size: 9px;
 	}
 	 #linkbar {
 
 	 }
 		#linkbar a {
 		display: inline-block;
-		font-size: 10px;
+		font-size: 9px;
 	}
 		#social {
 		position: absolute;
