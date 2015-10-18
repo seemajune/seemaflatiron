@@ -56,14 +56,10 @@
 	.col1_left {
     float: left;
     width: 100%;
-    margin: 1% 0 2% 1%;
+    margin: 1% 0 1% 1%;
     display: inline-block;
     overflow-x: visible;
   }
-
-	table {
-		margin-top: 25%;
-	}
 
 	th {
 		padding-right: 5%;
@@ -98,9 +94,13 @@
 
 
 @media only screen and (max-width: 320px) {
-	table {
-		margin-top: 35%;
-	}
+	.col1_left {
+    float: left;
+    width: 100%;
+    margin: 1% 0 1% 1%;
+    display: inline-block;
+    overflow-x: visible;
+  }
 
 	th {
 		padding-right: 5%;
