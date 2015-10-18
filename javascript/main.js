@@ -3,6 +3,6 @@ $( document ).ready(function() {
 
   $('th').on('click touchstart', function(e){
     var listToShow = $('.' + $(this).attr('id'));
-    $(listToShow).toggle('hide-list').addClass('shadow-z-1');
+    $(listToShow).addClass('shadow-z-1').slideToggle(1000);
   });
 });
