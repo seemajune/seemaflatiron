@@ -17,7 +17,6 @@
   var activeSection;
 
   function showContentSection() {
-    console.log(activeSection);
     activeAndDeactivate(activeSection);
     content.style.visibility = 'visible';
     content.classList.add('full');
